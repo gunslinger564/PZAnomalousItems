@@ -1,0 +1,20 @@
+module HMW
+{
+
+    craftRecipe OpenPickBox
+    {
+        timedAction = OpenAmmoBox,
+Time = 15,
+category = Ammunition,
+        Tags = InHandCraft;CanBeDoneInDark,
+inputs
+{
+item 1 [HMW.PickBox] flags[Prop2],
+}
+outputs
+{
+item 60 HMW.SupraNaturalPick,
+}
+}
+
+}

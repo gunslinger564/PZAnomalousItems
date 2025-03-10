@@ -1,0 +1,106 @@
+module Base
+{
+    model AmalithGuitar
+    {
+		mesh    =  Weapons/2Handed/GunGuitar,
+		texture =  Weapons/2Handed/GunGuitarTextureFlame,
+
+		attachment world
+		{
+			offset = 0.0000 0.7050 -0.0250,
+			rotate = 0.0000 -90.0000 285.0000,
+		}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0117 -0.3217 0.0014,
+			rotate = 0.0000 -83.2154 0.0000,
+		}
+	}
+
+	model AmalithGun
+    {
+		mesh    =  Weapons/2Handed/GunGuitar2,
+		texture =  Weapons/2Handed/GunGuitarTextureFlame,
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0117 -0.3217 0.0014,
+			rotate = 0.0000 -83.2154 0.0000,
+		}
+		attachment muzzle
+        {
+            offset = 0.0000 0.4020 0.0270,
+            rotate = -90.0000 0.0000 -180.0000,
+        }
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model PickBox
+	{
+		mesh = WorldItems/RifleAmmoBox,
+		texture = Weapons/2Handed/PickBox,
+		scale = 0.6,
+	}
+
+
+
+
+/*
+	model AssaultRifle
+	{
+		mesh = Weapons/Firearm/AssaultRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4020 0.0270,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+*/
+
+}

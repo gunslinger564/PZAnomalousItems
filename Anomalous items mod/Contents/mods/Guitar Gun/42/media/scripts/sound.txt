@@ -1,0 +1,101 @@
+module Base
+{
+    sound GuitarLick1
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick1.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick2
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick2.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick3
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick3.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick4
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick4.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+
+    sound GuitarLick5
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick5.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick6
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick6.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick7
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick7.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+    
+    sound GuitarLick8
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick8.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+
+    sound GuitarLick9
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/GuitarLick9.ogg,
+            distanceMax = 20,
+            volume = 0.1,
+        }
+    }
+}
